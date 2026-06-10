@@ -27,22 +27,22 @@ Also included:
 
 ## Getting Started
 
-### 1. Install Claude Code
+There are two ways to run the course. **Pick one** — the course itself is identical in both.
 
-You'll need [Claude Code](https://claude.com/claude-code) (free to install; requires a Claude account). Follow the install instructions for Mac or Windows, then open a terminal and type `claude` to confirm it runs.
+### Path A — Claude Code desktop app (recommended for most people)
 
-### 2. Install the course
+No terminal involved.
 
-Inside Claude Code, run these two commands:
+1. Download the **Claude Code desktop app** for Mac or Windows from [claude.com/claude-code](https://claude.com/claude-code) and sign in with your Claude account.
+2. Open the app and choose a folder to work in — your Documents folder is fine.
+3. Paste these two lines (one at a time) into the message box:
 
 ```
 /plugin marketplace add <ORG>/finance-engineer-course
 /plugin install finance-engineer-course@finance-engineer-course
 ```
 
-### 3. Start Module 1
-
-Open a terminal in any folder you'd like to work from (your Documents folder is fine), type `claude`, then:
+4. Then type:
 
 ```
 /start-1-1
@@ -50,11 +50,18 @@ Open a terminal in any folder you'd like to work from (your Documents folder is 
 
 Claude takes it from there. Each module ends by pointing you to the next one.
 
+### Path B — Terminal
+
+If you're comfortable in a terminal (or just curious):
+
+1. Install the **Claude Code CLI** per the instructions at [claude.com/claude-code](https://claude.com/claude-code), then confirm it runs: open a terminal and type `claude`.
+2. From any folder you'd like to work in (Documents is fine), type `claude`, then run the same three commands as Path A: the two `/plugin` lines, then `/start-1-1`.
+
+### Either path
+
 To get course updates later: `/plugin marketplace update finance-engineer-course`.
 
-### Prefer not to use plugins?
-
-Clone (or download) this repo, open a terminal **in the repo folder**, type `claude`, and run `/start-1-1`. Everything works the same.
+**Prefer not to use plugins?** Clone (or download) this repo, open the repo folder — in the desktop app, or in a terminal with `claude` — and run `/start-1-1`. Everything works the same.
 
 ## Questions / Feedback
 

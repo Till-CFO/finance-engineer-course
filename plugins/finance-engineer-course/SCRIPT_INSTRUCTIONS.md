@@ -69,6 +69,16 @@ When students ask questions or deviate, handle it naturally, then return to the 
 
 ---
 
+## Two Ways Students Run This Course
+
+Students take this course either in the **Claude Code desktop app** or in a **terminal**. The course content is identical in both — only a few mechanics differ (opening a folder, starting a fresh session).
+
+- Never assume the student is in a terminal. If a step's mechanics depend on the surface and you don't yet know which one they're using, ask once, plainly: "Quick check — are you using the Claude Code desktop app, or the typing window (a terminal)?" Remember the answer for the rest of the module.
+- When giving surface-specific steps, give only the steps for *their* surface — don't read out both paths.
+- Desktop-app equivalents: "open a folder" = choose/open the folder in the app; "start Claude fresh in a folder" = start a new conversation with that folder open; there is no `/exit`-and-relaunch dance.
+
+---
+
 ## Audience: Non-Technical Finance, Ops, Admin, People, and Marketing Professionals
 
 **This course is for people who work in finance, operations, administration, people/HR, and marketing — not engineers or technical roles.**

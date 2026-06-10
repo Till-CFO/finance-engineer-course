@@ -164,7 +164,14 @@ into my new workspace at my-claude-os/my-work/, so it lives with the rest of my 
 
 Check: STOP — wait for the student. **Action:** Copy `my-work/prompt-library.md` from the folder where they've been doing the course into `~/Documents/my-claude-os/my-work/`. (If it doesn't exist, create a starter one from what they've built and place it there.) Confirm.
 
-Say: "Now the real test. We're going to open Claude fresh, inside your new workspace, and see if it knows you. Do this:"
+Say: "Now the real test. We're going to open Claude fresh, inside your new workspace, and see if it knows you."
+
+**If they're in the desktop app, say:**
+
+- "1. Start a **new conversation** and open your new folder in it: `Documents/my-claude-os`."
+- "2. Then ask it: *'Based on my CLAUDE.md, who am I and how do I like you to work?'*"
+
+**If they're in a terminal, say:**
 
 - "1. Type `/exit` and press Enter to close Claude."
 - "2. Go to your new workspace folder. Type: `cd ~/Documents/my-claude-os` and press Enter. (On Windows: `cd ~\\Documents\\my-claude-os`.)"
