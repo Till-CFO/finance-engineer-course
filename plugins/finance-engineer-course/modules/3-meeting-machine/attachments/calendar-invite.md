@@ -20,6 +20,6 @@ Q1 QBR with Brightline. Agenda TBD but will likely cover:
 - Q1 financial performance vs. model
 - Cash flow outlook for Q2
 - Fundraising prep status update
-- Any open items from last quarter
+- Open items from onboarding
 
 No prep materials attached. Bring updated model.

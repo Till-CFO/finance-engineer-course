@@ -1,6 +1,6 @@
 # Bonus Module: Going Deeper
 
-**Goal:** Optional next steps for team members who want to go further — building on the setup you created in Module 5. No required exercises; this is a self-directed exploration guide.
+**Goal:** Optional next steps for students who want to go further — building on the setup you created in Module 5. No required exercises; this is a self-directed exploration guide.
 
 ---
 
@@ -44,7 +44,7 @@ Say: "The next step up: a custom helper — Claude set up to act like a speciali
 - "A few that fit finance-team work:"
   - "An inbox-triage helper that always sorts your email the same way, using your priorities"
   - "A meeting-prep helper that knows your usual meeting types and always asks the right questions"
-  - "A status-update helper that knows your audiences — Drew, a client, the team — and writes in the right voice for each"
+  - "A status-update helper that knows your audiences — your manager, a client, the team — and writes in the right voice for each"
 
 Say: "These build on the same idea as your shortcuts, just a bit more specialized. If one of these would save you real time, ask Claude:"
 
@@ -99,8 +99,8 @@ Say: "If you want to keep learning beyond this course:"
    will walk you through it.
 
 3. For the technically curious:
-   There's a deeper Claude Code course that covers managing files, running tasks in
-   parallel, and more advanced workflows. Ask Riley if you'd like access.
+   Anthropic publishes deeper Claude Code guides at claude.com/claude-code —
+   managing files, running bigger tasks, and more advanced workflows.
 ```
 
 ---

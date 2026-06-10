@@ -158,11 +158,11 @@ Say: "Let's prove the most important thing: that your setup *persists* — that 
 - "Here's the test. First, fold the prompt library you built earlier in the course into your new workspace so everything lives together. Type this:"
 
 ```
-Copy my prompt library from my-work/prompt-library.md (in this course folder)
+Copy my prompt library from my-work/prompt-library.md (in the folder where I've been doing the course)
 into my new workspace at my-claude-os/my-work/, so it lives with the rest of my setup.
 ```
 
-Check: STOP — wait for the student. **Action:** Copy `my-work/prompt-library.md` from the course folder into `~/Documents/my-claude-os/my-work/`. (If it doesn't exist, create a starter one from what they've built and place it there.) Confirm.
+Check: STOP — wait for the student. **Action:** Copy `my-work/prompt-library.md` from the folder where they've been doing the course into `~/Documents/my-claude-os/my-work/`. (If it doesn't exist, create a starter one from what they've built and place it there.) Confirm.
 
 Say: "Now the real test. We're going to open Claude fresh, inside your new workspace, and see if it knows you. Do this:"
 

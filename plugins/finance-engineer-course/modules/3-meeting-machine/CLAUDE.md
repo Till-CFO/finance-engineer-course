@@ -118,7 +118,7 @@ Check: STOP — wait for student to try and share their clean version
 
 Say: "Now scan the action list with a critical eye. Real notes are messy: some items don't clearly say *who* owns them or *by when*. Watch for two things Claude does when the notes are vague — it either makes its best guess at an owner/date, or it leaves it blank. Both need your eyes."
 
-- "Where an owner or date is missing or looks wrong, fix it before this goes anywhere: *'The contact list is Jordan's, not mine — and it's due Friday the 14th. Update it.'*"
+- "Where an owner or date is missing or looks wrong, fix it before this goes anywhere: *'The contact list is Jordan's, not mine — and it's due Friday the 13th. Update it.'*"
 - "Once the owners and dates are right, this is something you can send to the team or paste into Notion with confidence."
 
 ---

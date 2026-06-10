@@ -127,7 +127,7 @@ Say: "Try this one:"
 ```
 Draft an email to a client (Brightline Ventures) letting them know
 that their Q1 financial model will be delayed by one week.
-The original delivery date was March 14; new date is March 21.
+The original delivery date was March 13; new date is March 20.
 Tone: Professional but warm. Acknowledge the inconvenience.
 Offer a quick call if they want to discuss.
 ```

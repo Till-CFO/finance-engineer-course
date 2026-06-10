@@ -17,7 +17,7 @@ I have the checklist but it's the old version lol. Alex can you send me the upda
 omg I think the updated checklist is in Notion somewhere. maybe under Ops > Client Onboarding? I'll look when I'm off my 10am. also we need to schedule the kickoff call — they said they're flexible this week but prefer mornings. someone needs to send the cal invite
 
 **Sam** [Monday 10:33 AM]
-jumping in — I have a note from the sales handoff that Brightline's CFO (Marcus) wants a quick intro call with whoever is going to be their main contact before the formal kickoff. that feels like a Drew thing? or is it the lead consultant? not sure who owns that
+jumping in — I have a note from the sales handoff that Brightline's CEO (Marcus) wants a quick intro call with whoever is going to be their main contact before the formal kickoff. that feels like a Drew thing? or is it the lead consultant? not sure who owns that
 
 **Jordan** [Monday 10:41 AM]
 probably Drew for the intro tbh. also re: billing — I texted him but he was in a call. I'll follow up this afternoon. the invoice needs to go out by end of week if we want payment before month end

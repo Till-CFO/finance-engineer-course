@@ -45,7 +45,7 @@ Point it at any general ledger export and get ranked findings — duplicates, mi
 Your close checklist as a living skill: it walks the list, checks what it can verify from exports you give it, and produces a status-with-exceptions summary instead of a wall of checkboxes.
 
 **Invoice / payroll-report reconciliation** 🔴
-Compare two documents that should agree — a payroll provider invoice against the register, a vendor statement against the ledger — and surface every line that doesn't tie, with a plain-English explanation of each gap. One of the highest-ROI patterns we run.
+Compare two documents that should agree — a payroll provider invoice against the register, a vendor statement against the ledger — and surface every line that doesn't tie, with a plain-English explanation of each gap. One of the highest-ROI patterns on this list.
 
 **Board-deck first drafts** 🟡
 Feed it the month's financials and your notes; get the narrative draft — performance vs. plan, what changed, what to watch — in your reporting voice. You edit judgment, not blank pages.

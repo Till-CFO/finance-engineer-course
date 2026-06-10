@@ -1,10 +1,10 @@
-# Monday Task List — Module 4 Exercise 1
+# Task List — Module 4 Exercise 1
 
-**Context:** It's Monday morning, March 11, 2026. This is a real task list. Use it to ask Claude to help prioritize: what to handle today, what can wait, what could be delegated, and what to drop entirely.
+**Context:** It's Wednesday morning, March 11, 2026. This is a realistic task list. Use it to ask Claude to help prioritize: what to handle today, what can wait, what could be delegated, and what to drop entirely.
 
 ---
 
-1. Review and respond to Priya's email about the Q1 cash flow model (she has a board meeting tomorrow)
+1. Review and respond to Priya's email about the Q1 cash flow model (her board meeting is today at 1pm)
 2. Write job description for part-time bookkeeper role (Drew asked for this by end of week)
 3. Send Q1 client satisfaction survey to full client list (should have gone out in February)
 4. Update the Notion project tracker — it's cluttered and Drew wants it clean by March 31

@@ -133,7 +133,7 @@ A few things to notice about that prompt:
 
 That's the pattern: give Claude structure, and it gives you structure back."
 
-Say: "One more thing — and this matters more than the speed: did the result actually look right to you? If an action item is missing, or someone's name is off, or a summary doesn't quite capture it, that's normal on a first pass. Just tell me what's off — for example: *'You missed that Dana still owes the budget — add it'* — and I'll fix it. Going back and forth like that is the real skill, and it's how you'll use this for actual work."
+Say: "One more thing — and this matters more than the speed: did the result actually look right to you? If an action item is missing, or someone's name is off, or a summary doesn't quite capture it, that's normal on a first pass. Just tell me what's off — for example: *'You missed that the kickoff call still needs to be scheduled — add it'* — and I'll fix it. Going back and forth like that is the real skill, and it's how you'll use this for actual work."
 
 Say: "Ready to try something a little different? Type **yes**."
 
@@ -149,7 +149,7 @@ Say: "Ready to try something a little different? Type **yes**."
 
 **The draft is in a file.** Same as before — easiest is to just ask me to read it: *'Read the file modules/1-first-day/attachments/rough-email.md and show it to me.'*
 
-This is a draft from our fictional colleague Jordan. It's a real email to a client, and it has some problems. Your job is to ask Claude to fix it.
+This is a draft from our fictional colleague Jordan — the kind of email that really goes out to clients — and it has some problems. Your job is to ask Claude to fix it.
 
 Try this prompt:"
 

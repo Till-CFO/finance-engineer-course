@@ -36,9 +36,9 @@ Task list:
 
 ## Step 3: Exercise 1 — Morning priority brief (5 min)
 
-Action: Tell the student to open `modules/4-daily-os/attachments/monday-tasks.md`
+Action: Tell the student to open `modules/4-daily-os/attachments/task-list.md`
 
-Say: "This is a sample Monday morning task list. Use the prompt above to triage it."
+Say: "This is a sample weekday-morning task list. Use the prompt above to triage it."
 - "Or paste your own actual tasks for today — even better."
 
 Check: STOP — wait for student to share their prioritized list
@@ -92,7 +92,7 @@ Say: "Here's your scenario. Paste this into Claude:"
 Project: Brightline Ventures Onboarding
 Here's the current state:
 - Kickoff call happened on March 10 — went well
-- CFO consultant (Alex) is working on the 90-day plan
+- The lead consultant (Casey) is working on the 90-day plan
 - Waiting on Brightline to share their financial statements (requested March 8, still pending)
 - Target delivery for 90-day plan: March 21
 - Minor risk: if financials don't arrive by March 14, we may need to push delivery

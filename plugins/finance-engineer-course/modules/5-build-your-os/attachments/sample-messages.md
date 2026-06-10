@@ -6,7 +6,7 @@
 
 **Email — to a vendor, following up on an overdue deliverable**
 
-Hi Marcus,
+Hi Victor,
 
 Quick follow-up on the onboarding portal access — we were expecting it last Friday and haven't seen it come through yet. Can you let me know where it stands and a realistic date? Happy to hop on a call if that's easier.
 
@@ -19,7 +19,7 @@ Jordan
 
 Hey team — recap from the ops sync just now:
 
-• Billing migration is on track for the 15th, Priya owns it
+• Billing migration is on track for the 15th, Morgan owns it
 • We're still waiting on the updated vendor list (Sam, end of week?)
 • Parking the office-move conversation until next month
 
@@ -65,7 +65,7 @@ On it. Give me 20 minutes to pull the numbers together and I'll drop them here. 
 
 Hi Lena,
 
-Great to connect! I'll be your main point of contact on our side for anything operations-related. I've cc'd Priya, who handles billing. Looking forward to working together — I'll send over the kickoff details by tomorrow.
+Great to connect! I'll be your main point of contact on our side for anything operations-related. I've cc'd Morgan, who handles billing. Looking forward to working together — I'll send over the kickoff details by tomorrow.
 
 Thanks!
 Jordan

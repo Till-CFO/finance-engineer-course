@@ -69,9 +69,9 @@ When students ask questions or deviate, handle it naturally, then return to the 
 
 ---
 
-## Audience: Non-Technical Ops, Admin, People, and Marketing Staff
+## Audience: Non-Technical Finance, Ops, Admin, People, and Marketing Professionals
 
-**This course is for people who work in operations, administration, people/HR, and marketing — not engineers or technical roles.**
+**This course is for people who work in finance, operations, administration, people/HR, and marketing — not engineers or technical roles.**
 
 Keep all language plain and jargon-free. Specifically:
 
@@ -85,7 +85,7 @@ Keep all language plain and jargon-free. Specifically:
 - "save this as a file" instead of "write to disk"
 - "your workspace" instead of "your directory"
 
-When examples come up, use real ops/admin scenarios: drafting communications, summarizing meetings, triaging inboxes, creating agendas, tracking action items, writing SOPs. Avoid any examples that involve writing software, analyzing data pipelines, or building tools.
+When examples come up, use real finance/ops/admin scenarios: drafting communications, summarizing meetings, triaging inboxes, creating agendas, tracking action items, writing SOPs, reviewing financial data. Avoid software-engineering examples (building apps, writing code). Analyzing financial data (Module 6) and building personal helpers and shortcuts (Module 5 and the bonus) are in scope — keep them jargon-free.
 
 The goal is for every student to feel capable and welcomed — not like they wandered into the wrong room.
 

@@ -13,7 +13,7 @@ ROCKS / PROJECTS
 - project tracker cleanup — Alex has been doing it but Notion is still messy. Drew wants it cleaned up before end of Q1 so leadership can actually use it. deadline is march 31. Alex owns.
 - marketing — riley gave update. content calendar is behind. was supposed to launch in feb. now looking at mid-april. need to figure out who is owning social vs email. riley and morgan need to talk
 - hiring — two open roles. one ops coordinator (posted, 3 applicants so far, Jordan is reviewing). one part-time bookkeeper (not posted yet — drew said needs to go up asap, asked riley to write the JD by end of this week). nobody confirmed they got that
-- Q1 client survey — haven't sent it yet. should have gone out in feb. drew is annoyed. riley to own. jordan will pull the contact list. should go out by friday march 14 but nobody said that explicitly, that's just what makes sense given timeline
+- Q1 client survey — haven't sent it yet. should have gone out in feb. drew is annoyed. riley to own. jordan will pull the contact list. should go out by friday march 13 but nobody said that explicitly, that's just what makes sense given timeline
 
 DECISIONS
 - agreed to move team standup from tuesday to wednesday starting next week. jordan to update the calendar invite
@@ -26,6 +26,6 @@ DISCUSSED BUT NOT DECIDED
 - discussion about whether to hire a full-time marketing person in Q2. no decision. Drew said "let's see how April goes"
 
 OTHER
-- Drew mentioned he's going to be traveling march 17-21. Riley needs to handle anything time-sensitive that week
+- Drew mentioned he's going to be traveling march 23-27. Riley needs to handle anything time-sensitive that week
 - riley reminded everyone that the team wiki in Notion hasn't been updated since November. general agreement it needs work but no owner assigned
 - jordan mentioned the cloudstack subscription is coming up for renewal. $2400. drew said approve it. jordan to handle payment

@@ -20,7 +20,7 @@
 | 2026-01-10 | TXN-010 | Google Workspace – January | Google LLC | 6200 | Software Subscriptions | $310.00 | |
 | 2026-01-10 | TXN-011 | LinkedIn Ads – January | LinkedIn Corporation | 6300 | Marketing & Advertising | $2,800.00 | |
 | 2026-01-14 | TXN-012 | Stripe Processing Fee – January | Stripe Inc. | 5300 | Cost of Revenue | $1,240.00 | |
-| 2026-01-14 | TXN-013 | Contractor Invoice – Backend Dev | Apex Dev Solutions | 6400 | Professional Services | $5,500.00 | |
+| 2026-01-14 | TXN-013 | Contractor Invoice – Backend Dev | Corewave Dev Solutions | 6400 | Professional Services | $5,500.00 | |
 | 2026-01-15 | TXN-014 | SaaStr Annual Conference – Travel | Expensify | 6600 | Travel & Entertainment | $2,450.00 | Flights + hotel |
 | 2026-01-16 | TXN-015 | Stripe Processing Fee – January | Stripe Inc. | 5300 | Cost of Revenue | $1,240.00 | |
 | 2026-01-17 | TXN-016 | Figma – January | Figma Inc. | 6200 | Software Subscriptions | $240.00 | |
@@ -89,7 +89,7 @@
 | 2026-03-10 | TXN-079 | Stripe Processing Fee – March | Stripe Inc. | 5300 | Cost of Revenue | $1,050.00 | |
 | 2026-03-10 | TXN-080 | Figma – March | Figma Inc. | 6200 | Software Subscriptions | $240.00 | |
 | 2026-03-11 | TXN-081 | Ahrefs – March | Ahrefs Pte. Ltd. | 6300 | Marketing & Advertising | $399.00 | |
-| 2026-03-12 | TXN-082 | Contractor Invoice – Backend Dev | Apex Dev Solutions | 6400 | Professional Services | $6,000.00 | |
+| 2026-03-12 | TXN-082 | Contractor Invoice – Backend Dev | Corewave Dev Solutions | 6400 | Professional Services | $6,000.00 | |
 | 2026-03-13 | TXN-083 | ARR Renewal – BlueSky Consulting | BlueSky Consulting LLC | 4000 | SaaS Revenue | $11,400.00 | Annual renewal |
 | 2026-03-14 | TXN-084 | Team Lunch – March | Local Restaurant | 6600 | Travel & Entertainment | $275.00 | |
 | 2026-03-16 | TXN-085 | Office Supplies – March | Staples Inc. | 6500 | Office Supplies | $98.00 | |
