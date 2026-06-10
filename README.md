@@ -38,7 +38,7 @@ No terminal involved.
 3. Paste these two lines (one at a time) into the message box:
 
 ```
-/plugin marketplace add <ORG>/finance-engineer-course
+/plugin marketplace add Till-CFO/finance-engineer-course
 /plugin install finance-engineer-course@finance-engineer-course
 ```
 
