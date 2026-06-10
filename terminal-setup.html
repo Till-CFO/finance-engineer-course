@@ -5,39 +5,60 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Terminal Setup — The Finance Engineer Course</title>
 <meta name="description" content="Step-by-step terminal setup for the Finance Engineer Course — about 5 minutes, no technical background needed.">
+<meta property="og:title" content="Terminal Setup — The Finance Engineer Course">
+<meta property="og:description" content="About 5 minutes, written for people who've never opened a terminal.">
+<meta property="og:url" content="https://finance-engineer-course.tillcfo.com/terminal-setup.html">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#102037">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23102037'/%3E%3Cpath d='M8 22V10h10v3h-7v2.5h6v3h-6V22z' fill='%23EBB000'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
-  :root{--blue:#1B4687;--navy:#0D2E5B;--deep:#102037;--ink:#1F1F23;--light:#E7EBF0;--soft:#CFD9E8;--gold:#EBB000}
+  :root{--blue:#1B4687;--navy:#0D2E5B;--deep:#102037;--ink:#1F1F23;--light:#E7EBF0;--soft:#CFD9E8;--gold:#EBB000;--radius:12px}
   *{margin:0;padding:0;box-sizing:border-box}
-  body{font-family:'Acumin Pro','Proxima Nova','Montserrat',Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.65}
-  .wrap{max-width:760px;margin:0 auto;padding:0 24px}
-  header{background:var(--deep);color:#fff;padding:44px 0 38px}
+  body{font-family:'Acumin Pro','Proxima Nova','Montserrat',Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.7;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:800px;margin:0 auto;padding:0 28px}
+  .goldbar{height:4px;background:var(--gold)}
+  header{background:var(--deep);color:#fff;padding:60px 0 52px;position:relative;overflow:hidden}
+  header::before{content:"";position:absolute;inset:0;background:radial-gradient(520px 520px at 90% -20%, rgba(27,70,135,.5), transparent 65%)}
+  header .wrap{position:relative;z-index:1}
   header a.back{color:var(--soft);font-size:.88rem;text-decoration:none}
-  header h1{font-size:2rem;font-weight:800;margin:10px 0 8px}
-  header p{color:var(--soft)}
-  section{padding:36px 0 8px}
-  .step{border:1px solid var(--soft);border-radius:10px;padding:24px 26px;margin-bottom:22px}
-  .step h2{color:var(--navy);font-size:1.15rem;margin-bottom:10px}
-  .step h2 .n{display:inline-block;background:var(--blue);color:#fff;border-radius:50%;width:28px;height:28px;text-align:center;line-height:28px;font-size:.9rem;margin-right:10px}
-  .os{margin-top:12px;border-left:3px solid var(--soft);padding:8px 16px}
-  .os strong.lbl{color:var(--blue);display:block;margin-bottom:4px;font-size:.85rem;text-transform:uppercase;letter-spacing:.06em}
-  code{background:var(--light);border:1px solid var(--soft);border-radius:4px;padding:1px 6px;font-size:.88em}
-  pre{background:var(--deep);color:#fff;border-radius:8px;padding:12px 16px;font-size:.88rem;overflow-x:auto;margin:8px 0}
-  .hint{font-size:.88rem;color:#555;background:var(--light);border-radius:6px;padding:10px 14px;margin-top:12px}
-  .done{background:var(--light);border:2px solid var(--blue);border-radius:10px;padding:24px 26px;margin:6px 0 30px}
-  .done h2{color:var(--blue);font-size:1.15rem;margin-bottom:10px}
-  footer{background:var(--deep);color:var(--soft);padding:28px 0;font-size:.88rem;margin-top:30px}
-  footer a{color:#fff}
+  header a.back:hover{color:#fff}
+  header h1{font-size:clamp(1.7rem,4.5vw,2.3rem);font-weight:800;letter-spacing:-.01em;margin:14px 0 12px}
+  header p{color:var(--soft);max-width:600px}
+  header p a{color:#fff;text-decoration-color:rgba(235,176,0,.6);text-underline-offset:3px}
+  section{padding:52px 0 16px}
+  .step{border:1px solid var(--soft);border-radius:var(--radius);padding:30px 32px;margin-bottom:26px;transition:box-shadow .2s ease}
+  .step:hover{box-shadow:0 10px 30px rgba(13,46,91,.07)}
+  .step h2{color:var(--navy);font-size:1.18rem;font-weight:700;margin-bottom:14px;display:flex;align-items:center;gap:12px}
+  .step h2 .n{flex:none;background:var(--blue);color:#fff;border-radius:50%;width:30px;height:30px;text-align:center;line-height:30px;font-size:.9rem;font-weight:700}
+  .step h2 .opt{font-weight:500;font-size:.82rem;color:#5a6472}
+  .step p{font-size:.96rem}
+  .os{margin-top:16px;border-left:3px solid var(--soft);padding:10px 18px}
+  .os strong.lbl{color:var(--blue);display:block;margin-bottom:6px;font-size:.78rem;text-transform:uppercase;letter-spacing:.09em}
+  code{background:var(--light);border:1px solid var(--soft);border-radius:5px;padding:2px 7px;font-size:.87em;color:var(--navy)}
+  a{color:var(--blue);text-underline-offset:3px}
+  .cmd{margin:10px 0 4px;border-radius:10px;overflow:hidden;border:1px solid rgba(13,46,91,.4)}
+  .cmd .cmd-label{background:var(--navy);color:var(--soft);font-size:.7rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;padding:7px 16px}
+  .cmd pre{background:var(--deep);color:#fff;padding:16px 20px;font-size:.92rem;line-height:2;white-space:pre-wrap;overflow-wrap:anywhere;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  .cmd pre b{color:var(--gold);font-weight:600}
+  .hint{font-size:.9rem;color:#5a6472;background:var(--light);border-radius:8px;padding:14px 18px;margin-top:16px;line-height:1.7}
+  .done{background:var(--light);border:2px solid var(--blue);border-radius:var(--radius);padding:30px 32px;margin:10px 0 36px}
+  .done h2{color:var(--blue);font-size:1.18rem;font-weight:800;margin-bottom:12px}
+  .done p{font-size:.96rem}
+  footer{background:var(--deep);color:var(--soft);padding:34px 0;font-size:.88rem;margin-top:34px}
+  footer a{color:#fff;text-decoration-color:rgba(235,176,0,.6);text-underline-offset:3px}
 </style>
 </head>
 <body>
 
+<div class="goldbar"></div>
 <header>
   <div class="wrap">
     <a class="back" href="index.html">← Back to course overview</a>
     <h1>Terminal Setup, Step by Step</h1>
-    <p>About 5 minutes, and you only do it once. If a step doesn't work the first time, each one tells you exactly what to check. (Rather skip the terminal entirely? The <a href="index.html#start" style="color:#fff">desktop app path</a> needs none of this.)</p>
+    <p>About 5 minutes, and you only do it once. If a step doesn't work the first time, each one tells you exactly what to check. (Rather skip the terminal entirely? The <a href="index.html#start">desktop app path</a> needs none of this.)</p>
   </div>
 </header>
 
@@ -52,7 +73,7 @@
     </div>
 
     <div class="step">
-      <h2><span class="n">2</span>One quick setup step <span style="font-weight:400;font-size:.85rem;color:#555">(Windows only)</span></h2>
+      <h2><span class="n">2</span>One quick setup step <span class="opt">(Windows only)</span></h2>
       <div class="os"><strong class="lbl">Mac</strong>Nothing to do — go straight to Step 3.</div>
       <div class="os"><strong class="lbl">Windows</strong>Claude Code works best with a small, free tool called <strong>Git</strong> installed. Go to <a href="https://git-scm.com/download/win">git-scm.com/download/win</a> (the download starts on its own), open the file, and click <strong>Next</strong> through the installer — the defaults are exactly right. Then close PowerShell and open a fresh one so it notices the new tool.</div>
       <p class="hint"><strong>Not sure if you already have Git?</strong> Plenty of Windows computers do. Skip ahead and try Step 3 — if you later see an error mentioning "git" or "bash," come back here.</p>
@@ -61,16 +82,16 @@
     <div class="step">
       <h2><span class="n">3</span>Install Claude Code</h2>
       <p>Copy the line for your computer, paste it into the window from Step 1, and press Enter. Text will scroll by for a minute or two — that's it working. Wait until your cursor comes back.</p>
-      <div class="os"><strong class="lbl">Mac — Terminal</strong><pre>curl -fsSL https://claude.ai/install.sh | bash</pre></div>
-      <div class="os"><strong class="lbl">Windows — PowerShell</strong><pre>irm https://claude.ai/install.ps1 | iex</pre></div>
+      <div class="cmd"><div class="cmd-label">Mac — Terminal</div><pre>curl -fsSL https://claude.ai/install.sh | bash</pre></div>
+      <div class="cmd"><div class="cmd-label">Windows — PowerShell</div><pre>irm https://claude.ai/install.ps1 | iex</pre></div>
       <p class="hint"><strong>Is this safe to paste?</strong> Yes — it downloads Claude Code's official installer straight from Anthropic (the makers of Claude), the exact method published on their own site. It's self-contained: no Node.js or other developer tools get installed (on Windows, the only companion is the Git tool from Step 2).</p>
     </div>
 
     <div class="step">
       <h2><span class="n">4</span>Check it worked</h2>
       <p>When the scrolling stops, type this and press Enter:</p>
-      <pre>claude --version</pre>
-      <p>If you see a version number, you're done with this step.</p>
+      <div class="cmd"><div class="cmd-label">Terminal</div><pre>claude --version</pre></div>
+      <p style="margin-top:12px">If you see a version number, you're done with this step.</p>
       <p class="hint"><strong>See "not recognized" or "not found" instead?</strong> That almost always just means the window needs a fresh start: close it completely, open a new one (Step 1), and try again. Still stuck? Re-run the Step 3 line in the fresh window — and if anything still seems off, type <code>claude doctor</code> for a plain-language checkup of your setup.</p>
     </div>
 
@@ -83,9 +104,10 @@
     <div class="done">
       <h2>✓ You're set — install the course</h2>
       <p>With Claude open (you'll see its welcome message), paste these one at a time:</p>
-      <pre>/plugin marketplace add Till-CFO/finance-engineer-course
-/plugin install finance-engineer-course@finance-engineer-course</pre>
-      <p>Then type <code>/start-1-1</code> — and Claude takes it from there.</p>
+      <div class="cmd"><div class="cmd-label">In Claude Code — paste one line at a time</div><pre>/plugin marketplace add Till-CFO/finance-engineer-course
+/plugin install finance-engineer-course@finance-engineer-course
+<b>/start-1-1</b></pre></div>
+      <p style="margin-top:12px">That last one starts Module 1 — Claude takes it from there.</p>
     </div>
 
   </div>
