@@ -1,6 +1,6 @@
 # License
 
-**Proposed: Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** — pending final confirmation by Till CFO.
+**Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**
 
 You are free to:
 
