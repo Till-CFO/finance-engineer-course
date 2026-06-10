@@ -1,0 +1,10 @@
+{
+  "name": "finance-engineer-course",
+  "version": "1.0.0",
+  "description": "The Finance Engineer Course — six interactive Claude Code modules for finance, ops, and admin professionals, plus the /gl-review GL analysis skill. Start with /start-1-1.",
+  "author": {
+    "name": "Till CFO",
+    "email": "arodriguez@tillcfo.com",
+    "url": "https://tillcfo.com"
+  }
+}

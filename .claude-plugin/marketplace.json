@@ -1,0 +1,15 @@
+{
+  "name": "finance-engineer-course",
+  "description": "The Finance Engineer Course — a hands-on Claude Code course for finance, ops, and admin professionals. Built by the team at Till CFO.",
+  "owner": {
+    "name": "Till CFO",
+    "email": "arodriguez@tillcfo.com"
+  },
+  "plugins": [
+    {
+      "name": "finance-engineer-course",
+      "source": "./plugins/finance-engineer-course",
+      "description": "Six interactive modules taught by Claude inside Claude Code, plus the /gl-review skill — a first-pass general ledger review you can use on real work."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "version": "1.1.0",
+  "lastUpdated": "2026-06-03",
+  "courseName": "The Finance Engineer Course",
+  "audience": "finance, ops, and admin professionals",
+  "modules": [
+    {
+      "id": "1",
+      "name": "Your First Day with Claude",
+      "command": "start-1-1",
+      "estimatedMinutes": 20,
+      "path": "modules/1-first-day/CLAUDE.md"
+    },
+    {
+      "id": "2",
+      "name": "Communications Superpower",
+      "command": "start-2-1",
+      "estimatedMinutes": 25,
+      "path": "modules/2-communications/CLAUDE.md"
+    },
+    {
+      "id": "3",
+      "name": "Meeting Machine",
+      "command": "start-3-1",
+      "estimatedMinutes": 25,
+      "path": "modules/3-meeting-machine/CLAUDE.md"
+    },
+    {
+      "id": "4",
+      "name": "Your Daily Patterns",
+      "command": "start-4-1",
+      "estimatedMinutes": 30,
+      "path": "modules/4-daily-os/CLAUDE.md"
+    },
+    {
+      "id": "5",
+      "name": "Build Your Operating System",
+      "command": "start-5-1",
+      "estimatedMinutes": 40,
+      "path": "modules/5-build-your-os/CLAUDE.md"
+    },
+    {
+      "id": "6",
+      "name": "The Finance Lens",
+      "command": "start-6-1",
+      "estimatedMinutes": 25,
+      "path": "modules/6-finance-lens/CLAUDE.md"
+    },
+    {
+      "id": "bonus",
+      "name": "Going Deeper",
+      "command": "start-bonus",
+      "estimatedMinutes": null,
+      "optional": true,
+      "path": "modules/bonus-going-deeper/CLAUDE.md"
+    }
+  ]
+}
