@@ -176,6 +176,6 @@ Say: "Type /start-3-1 when you're ready for Module 3 — Meeting Machine."
 
 ## Teaching Notes
 
-- If student asks about connecting Claude directly to Gmail: "You'll set that up in Module 5, where you connect your tools — then Claude can read your inbox directly. For now, copy-paste is the habit to build, and the prompt patterns are the same either way."
+- If student asks about connecting Claude directly to Gmail or Outlook: "You'll set that up in Module 5, where you connect your tools — then Claude can read your inbox directly. For now, copy-paste is the habit to build, and the prompt patterns are the same either way."
 - Celebrate every good output they share.
 - If student deviates or asks questions, answer naturally, then return to the next step in the script.

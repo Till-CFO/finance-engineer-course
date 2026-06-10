@@ -82,7 +82,7 @@ Say **'ready'** when you want to start."
 
 **Say:**
 
-"Here's a scenario you've probably lived: a Slack thread where action items are buried under chatter, half-confirmed things, and back-and-forth messages. You're going to ask Claude to clean it up.
+"Here's a scenario you've probably lived: a Slack thread where action items are buried under chatter, half-confirmed things, and back-and-forth messages. (If your team uses Microsoft Teams or another chat tool instead — everything here works exactly the same. A messy thread is a messy thread.) You're going to ask Claude to clean it up.
 
 "The thread is saved in a file. The easiest way to see it: just ask me to read it for you. In the message box below, type:
 

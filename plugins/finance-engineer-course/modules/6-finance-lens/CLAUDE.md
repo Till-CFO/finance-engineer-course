@@ -155,7 +155,9 @@ Let the student experiment with the prompt before moving on."
 
 **Say:**
 
-"Here's the framing to take away from this:
+"One more practical note: this works on an export from any system your ledger lives in — QuickBooks, Xero, NetSuite, Sage, anything that can produce a CSV or spreadsheet.
+
+Here's the framing to take away from this:
 
 Claude is a first-pass analyst. Not a replacement for your judgment — a way to get to the interesting part faster. You still decide what matters and what to ask the client. Claude just means you're walking into that conversation already knowing where to look.
 

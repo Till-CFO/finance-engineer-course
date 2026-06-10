@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terminal Setup — The Finance Engineer Course</title>
+<meta name="description" content="Step-by-step terminal setup for the Finance Engineer Course — about 5 minutes, no technical background needed.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{--blue:#1B4687;--navy:#0D2E5B;--deep:#102037;--ink:#1F1F23;--light:#E7EBF0;--soft:#CFD9E8;--gold:#EBB000}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Acumin Pro','Proxima Nova','Montserrat',Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.65}
+  .wrap{max-width:760px;margin:0 auto;padding:0 24px}
+  header{background:var(--deep);color:#fff;padding:44px 0 38px}
+  header a.back{color:var(--soft);font-size:.88rem;text-decoration:none}
+  header h1{font-size:2rem;font-weight:800;margin:10px 0 8px}
+  header p{color:var(--soft)}
+  section{padding:36px 0 8px}
+  .step{border:1px solid var(--soft);border-radius:10px;padding:24px 26px;margin-bottom:22px}
+  .step h2{color:var(--navy);font-size:1.15rem;margin-bottom:10px}
+  .step h2 .n{display:inline-block;background:var(--blue);color:#fff;border-radius:50%;width:28px;height:28px;text-align:center;line-height:28px;font-size:.9rem;margin-right:10px}
+  .os{margin-top:12px;border-left:3px solid var(--soft);padding:8px 16px}
+  .os strong.lbl{color:var(--blue);display:block;margin-bottom:4px;font-size:.85rem;text-transform:uppercase;letter-spacing:.06em}
+  code{background:var(--light);border:1px solid var(--soft);border-radius:4px;padding:1px 6px;font-size:.88em}
+  pre{background:var(--deep);color:#fff;border-radius:8px;padding:12px 16px;font-size:.88rem;overflow-x:auto;margin:8px 0}
+  .hint{font-size:.88rem;color:#555;background:var(--light);border-radius:6px;padding:10px 14px;margin-top:12px}
+  .done{background:var(--light);border:2px solid var(--blue);border-radius:10px;padding:24px 26px;margin:6px 0 30px}
+  .done h2{color:var(--blue);font-size:1.15rem;margin-bottom:10px}
+  footer{background:var(--deep);color:var(--soft);padding:28px 0;font-size:.88rem;margin-top:30px}
+  footer a{color:#fff}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="back" href="index.html">← Back to course overview</a>
+    <h1>Terminal Setup, Step by Step</h1>
+    <p>About 5 minutes, and you only do it once. If a step doesn't work the first time, each one tells you exactly what to check. (Rather skip the terminal entirely? The <a href="index.html#start" style="color:#fff">desktop app path</a> needs none of this.)</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+
+    <div class="step">
+      <h2><span class="n">1</span>Open the app where you'll type</h2>
+      <p>Claude Code runs inside a simple app that already comes with your computer. Instead of clicking buttons, you type a short line and press Enter — that's all you'll do here.</p>
+      <div class="os"><strong class="lbl">Mac</strong>Press <code>Cmd + Space</code>, type <code>Terminal</code>, press Enter. A small window opens with a blinking cursor — that's where you type.</div>
+      <div class="os"><strong class="lbl">Windows</strong>Click the <strong>Start menu</strong>, type <code>PowerShell</code>, press Enter. (If Windows shows more than one option, pick the one simply called "Windows PowerShell.")</div>
+    </div>
+
+    <div class="step">
+      <h2><span class="n">2</span>One quick setup step <span style="font-weight:400;font-size:.85rem;color:#555">(Windows only)</span></h2>
+      <div class="os"><strong class="lbl">Mac</strong>Nothing to do — go straight to Step 3.</div>
+      <div class="os"><strong class="lbl">Windows</strong>Claude Code works best with a small, free tool called <strong>Git</strong> installed. Go to <a href="https://git-scm.com/download/win">git-scm.com/download/win</a> (the download starts on its own), open the file, and click <strong>Next</strong> through the installer — the defaults are exactly right. Then close PowerShell and open a fresh one so it notices the new tool.</div>
+      <p class="hint"><strong>Not sure if you already have Git?</strong> Plenty of Windows computers do. Skip ahead and try Step 3 — if you later see an error mentioning "git" or "bash," come back here.</p>
+    </div>
+
+    <div class="step">
+      <h2><span class="n">3</span>Install Claude Code</h2>
+      <p>Copy the line for your computer, paste it into the window from Step 1, and press Enter. Text will scroll by for a minute or two — that's it working. Wait until your cursor comes back.</p>
+      <div class="os"><strong class="lbl">Mac — Terminal</strong><pre>curl -fsSL https://claude.ai/install.sh | bash</pre></div>
+      <div class="os"><strong class="lbl">Windows — PowerShell</strong><pre>irm https://claude.ai/install.ps1 | iex</pre></div>
+      <p class="hint"><strong>Is this safe to paste?</strong> Yes — it downloads Claude Code's official installer straight from Anthropic (the makers of Claude), the exact method published on their own site.</p>
+    </div>
+
+    <div class="step">
+      <h2><span class="n">4</span>Check it worked</h2>
+      <p>When the scrolling stops, type this and press Enter:</p>
+      <pre>claude --version</pre>
+      <p>If you see a version number, you're done with this step.</p>
+      <p class="hint"><strong>See "not recognized" or "not found" instead?</strong> That almost always just means the window needs a fresh start: close it completely, open a new one (Step 1), and try again. Still stuck? Re-run the Step 3 line in the fresh window — and if anything still seems off, type <code>claude doctor</code> for a plain-language checkup of your setup.</p>
+    </div>
+
+    <div class="step">
+      <h2><span class="n">5</span>Sign in</h2>
+      <p>Type <code>claude</code> and press Enter. A short sign-in starts — when it asks how to log in, choose <strong>"Claude account with subscription"</strong> (not "Anthropic Console"). Your browser opens to log in, then you come back to this window.</p>
+      <p class="hint"><strong>No Claude account yet?</strong> Sign up at <a href="https://claude.ai">claude.ai</a> first. A Pro account is recommended for the course exercises.</p>
+    </div>
+
+    <div class="done">
+      <h2>✓ You're set — install the course</h2>
+      <p>With Claude open (you'll see its welcome message), paste these one at a time:</p>
+      <pre>/plugin marketplace add &lt;ORG&gt;/finance-engineer-course
+/plugin install finance-engineer-course@finance-engineer-course</pre>
+      <p>Then type <code>/start-1-1</code> — and Claude takes it from there.</p>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">The Finance Engineer Course · Built by <a href="https://tillcfo.com">Till CFO</a> · <a href="index.html">Course overview</a></div>
+</footer>
+
+</body>
+</html>

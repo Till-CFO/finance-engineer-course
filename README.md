@@ -52,7 +52,9 @@ Claude takes it from there. Each module ends by pointing you to the next one.
 
 ### Path B — Terminal
 
-If you're comfortable in a terminal (or just curious):
+If you're comfortable in a terminal (or just curious). Never opened one? Use the **[step-by-step terminal walkthrough](terminal-setup.html)** — about 5 minutes, written for people who've never seen a blinking cursor.
+
+The short version:
 
 1. Install the **Claude Code CLI** per the instructions at [claude.com/claude-code](https://claude.com/claude-code), then confirm it runs: open a terminal and type `claude`.
 2. From any folder you'd like to work in (Documents is fine), type `claude`, then run the same three commands as Path A: the two `/plugin` lines, then `/start-1-1`.

@@ -126,14 +126,17 @@ Say: "Right now, I can only work with what you paste in. The next level is letti
 - "Let's connect one now. Pick the tool you'd get the most out of — your calendar is a great first one. Type this:"
 
 ```
-Walk me through connecting my Google Calendar to Claude, one step at a time.
+Walk me through connecting my calendar (Google Calendar or Outlook) to Claude,
+one step at a time.
 ```
 
 Check: STOP — wait for the student to send that. Walk them through connecting one tool, step by step, plainly. If a connection can't be completed in the moment (it needs an account login or a permission they don't have handy), reassure them: they can finish it later, and the rest of their setup still works.
 
 Say: "Once a tool is connected, you can ask things like *'What's on my calendar tomorrow?'* or *'Summarize my unread emails'* — and I'll actually go look."
 
-> **Optional add-on.** Say only if relevant: "The tools worth connecting first are the ones you use every day — for most teams that's **your calendar, email, Slack, and your team wiki (like Notion).** Connect them the same way — ask me to walk you through each one. If your team has a recommended setup, check with them and I'll help you get it wired up."
+Check: If their calendar or email lives somewhere Claude can't connect to directly yet, don't let it become a wall — remind them the paste-in habit from Modules 1–4 works with any tool on earth, and help them connect whatever IS available.
+
+> **Optional add-on.** Say only if relevant: "The tools worth connecting first are the ones you use every day — for most teams that's **your calendar (Google or Outlook), your email (Gmail or Outlook), your chat tool (Slack or Teams), and your team wiki (Notion, SharePoint, or similar).** Connect them the same way — ask me to walk you through each one. If your team has a recommended setup, check with them and I'll help you get it wired up."
 
 Say: "Connect at least this one today. You can add the rest whenever you're ready — there's no rush, and adding one later takes two minutes."
 

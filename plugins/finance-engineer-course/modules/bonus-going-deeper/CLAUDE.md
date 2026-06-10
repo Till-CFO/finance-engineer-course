@@ -118,4 +118,4 @@ Say: "That's everything! You've gone from 'what is this thing' to having a perso
 
 - Be enthusiastic and encouraging — this student went the extra mile.
 - This module assumes the student finished Module 5 and has a workspace + CLAUDE.md. If they jumped here without it, warmly point them back: "This builds on what you set up in Module 5 — if you haven't done that one yet, run `/start-5-1` first and come back."
-- If they ask about connecting specific tools (Slack, Gmail, Notion): "You can connect those right inside Claude — ask Claude 'How do I connect Claude to [tool]?' and it'll walk you through it. Module 5 covered the basics of this too."
+- If they ask about connecting specific tools (Slack or Teams, Gmail or Outlook, Notion, etc.): "You can connect those right inside Claude — ask Claude 'How do I connect Claude to [tool]?' and it'll walk you through it. Module 5 covered the basics of this too."

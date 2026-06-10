@@ -9,7 +9,7 @@ You are acting as a **first-pass analyst**, not a decision-maker. Your job is to
 
 ## Input
 
-A general ledger export in any common format: CSV, Excel, markdown table, or pasted text. Typical columns: date, transaction ID, description, vendor/counterparty, GL code, account/category, amount, notes.
+A general ledger export in any common format: CSV, Excel, markdown table, or pasted text — from any system (QuickBooks, Xero, NetSuite, Sage, or anything else that exports). Typical columns: date, transaction ID, description, vendor/counterparty, GL code, account/category, amount, notes.
 
 If the user invoked this skill without attaching or pointing to a file, ask for the export first. If columns are ambiguous (e.g., no clear debit/credit signing), state your interpretation before analyzing.
 
