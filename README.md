@@ -4,7 +4,7 @@ A hands-on Claude Code course for finance, ops, and admin professionals. No tech
 
 Six interactive modules (plus a bonus), each taught *by Claude, inside Claude Code*. You don't read about the tool — the tool teaches you, using realistic finance-team work: messy Slack threads, half-written emails, raw meeting notes, a general ledger with problems hidden in it.
 
-Built by the team at [Till CFO](https://tillcfo.com), who run their finance services firm on these exact patterns.
+Built by the team at [Till CFO](https://tillcfo.com), who run their finance services firm on these exact patterns. Adapted, with gratitude, from the course framework of [Claude Code for Everyone](https://github.com/carlvellotti/claude-code-everyone-course) by Carl Vellotti — the original "learn Claude Code inside Claude Code" course.
 
 > **Note:** Every company and person in the course scenarios — Meridian Finance Partners, Brightline Ventures, and everyone who works there — is fictional. That's deliberate: you practice on realistic material without anyone's real data.
 
